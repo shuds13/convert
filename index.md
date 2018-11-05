@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 ---
 
 ## Python Software Engineering Training Materials
