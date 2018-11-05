@@ -1,0 +1,11 @@
+One issue that may be encountered when using Conda on HPC systems is the need for cross-compilation. .....
+
+If the basic architecture matches, then it may be possible to run, if not necessarily optimised, for the compute node architecture. Make sure the correct compilers are accessible (e.g. by loading the approapriate compiler environment module).
+
+***what MPI installs with conda for intel???? - so I guess it means autmatically using that rather than one installed by module??? - would it not work if he forced to use module MPI lib - the again i had to do those special LD_PRELOADs - find my notes on that - I want to work this out!]
+
+MPI users may need to copy the correct libraries for ABI compliance.
+
+**For example, on Theta (a Cray XC40) this can be achieved as follows (not version numbers may be updated):
+
+
